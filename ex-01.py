@@ -17,3 +17,5 @@ for blade in blades:
 handle.set_dump_xml()
 blades = handle.query_classid("ComputeBlade")
 handle.unset_dump_xml()
+
+handle.logout()
