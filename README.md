@@ -3,8 +3,11 @@
 
 The code in this repository is used during the Cisco Live DevNet Workshop DEVWKS-2060
 
+For guided learning of the UCS Python SDK, DevNet Learing Lab [Module UCS Python SDK Introduction](https://learninglabs.cisco.com/modules/ucs-python-sdk-introduction) is recommended.
+
 * **Technology stack**: These are stand-alone code examples that can be run using the [DevNet UCS Managment Sandbox](https://devnetsandbox.cisco.com/RM/Diagram/Index/3323b7b0-b70b-4b1e-a929-6bdbff3aac8a?diagramType=Topology).
-* **Status**: There is no version related to the code. It may change as the workshop evolves.
+
+* **Status**: There is no version related to the code. The may change as the workshop evolves.
 
 ## Dependencies
 
@@ -14,12 +17,14 @@ UCS Manager Python SDK is required, the easiest way to install is via `pip`
 
 The ucsmsdk can also be installed from [github](https://github.com/CiscoUcs/ucsmsdk#from-github)
 
+Minimal Python versions are 2.7 and 3.5.
+
 ## Installation
 
 No installation is required.
 
 ## Configuration
 
-The code examples use example UCS Manager IP addresses. 
+The code examples use example UCS Manager IP addresses.
 
 ----
