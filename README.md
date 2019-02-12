@@ -22,10 +22,6 @@ The ucsmsdk can also be installed from [github](https://github.com/CiscoUcs/ucsm
 
 Minimal Python versions are 2.7 and 3.5.
 
-## Installation
-
-No installation is required.
-
 ## Configuration
 
 The code examples use example UCS Manager IP addresses. Change them for your environment.
