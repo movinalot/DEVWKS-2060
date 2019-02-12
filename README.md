@@ -1,3 +1,5 @@
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/movinalot/DEVWKS-2060)
+
 # Cisco Live DevNet Workshop - DEVWKS-2060
 DevNet UCS Python SDK Workshop - Managing Cisco UCS with the Python SDK.
 
