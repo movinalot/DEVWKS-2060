@@ -3,9 +3,9 @@
 
 The code in this repository is used during the Cisco Live DevNet Workshop DEVWKS-2060
 
-For guided learning of the UCS Python SDK, DevNet Learing Lab [Module UCS Python SDK Introduction](https://learninglabs.cisco.com/modules/ucs-python-sdk-introduction) is recommended.
+For guided learning of the UCS Python SDK, DevNet Learning Lab [Module UCS Python SDK Introduction](https://learninglabs.cisco.com/modules/ucs-python-sdk-introduction) is recommended.
 
-* **Technology stack**: These are stand-alone code examples that can be run using the [DevNet UCS Managment Sandbox](https://devnetsandbox.cisco.com/RM/Diagram/Index/3323b7b0-b70b-4b1e-a929-6bdbff3aac8a?diagramType=Topology).
+* **Technology stack**: These are stand-alone code examples that can be run using the [DevNet UCS Management Sandbox](https://devnetsandbox.cisco.com/RM/Diagram/Index/3323b7b0-b70b-4b1e-a929-6bdbff3aac8a?diagramType=Topology).
 
     - The [UCS Manager Platform Emulator](https://software.cisco.com/portal/pub/download/portal/select.html?&mdfid=286305108&flowid=79283&softwareid=284574017) can be used with this repository.
 
