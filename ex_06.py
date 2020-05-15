@@ -12,7 +12,7 @@ from ucsmsdk.ucshandle import UcsHandle
 from ucsmsdk.mometa.fabric.FabricVlan import FabricVlan
 
 # Create a Login Handle and Login
-HANDLE = UcsHandle("198.18.133.91", "admin", "password")
+HANDLE = UcsHandle("10.10.20.40", "admin", "password")
 HANDLE.login()
 
 VLANS = ['200', '300', '400', '500']

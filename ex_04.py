@@ -12,7 +12,7 @@ from ucsmsdk.ucscoreutils import get_meta_info
 
 # Create a Login Handle and Login
 from ucsmsdk.ucshandle import UcsHandle
-HANDLE = UcsHandle("198.18.133.91", "admin", "password")
+HANDLE = UcsHandle("10.10.20.40", "admin", "password")
 HANDLE.login()
 
 # What is in the HANDLE

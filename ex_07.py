@@ -12,8 +12,8 @@ from ucsmsdk.ucshandle import UcsHandle
 from ucsmsdk.utils import comparesyncmo
 
 # Login to a SOURCE UCS and a TARGET UCS
-SOURCE_UCS = UcsHandle("198.18.133.91", "admin", "password")
-TARGET_UCS = UcsHandle("198.18.134.249", "admin", "password")
+SOURCE_UCS = UcsHandle("10.10.20.40", "admin", "password")
+TARGET_UCS = UcsHandle("10.10.20.50", "admin", "password")
 SOURCE_UCS.login()
 TARGET_UCS.login()
 

@@ -29,7 +29,7 @@ def show_ucs_object_attributes(ucs_objects, attributes):
 
 
 # Create a Login HANDLE and Login
-HANDLE = UcsHandle("198.18.133.91", "admin", "password")
+HANDLE = UcsHandle("10.10.20.40", "admin", "password")
 HANDLE.login()
 
 # Attributes of the UCS Object to display
