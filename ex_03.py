@@ -18,7 +18,7 @@ BLADES = HANDLE.query_classid("ComputeBlade")
 print(BLADES)
 
 # Single Object Returned
-BLADE_BY_DN = HANDLE.query_dn("sys/chassis-1/blade-1")
+BLADE_BY_DN = HANDLE.query_dn("sys/chassis-3/blade-1")
 print(BLADE_BY_DN)
 
 # Dictionary of Object Lists Returned Key is the ClassId
@@ -39,18 +39,18 @@ for blade in BLADES_AND_CHASSIS['ComputeBlade']:
 
 # Dictionary of dn as the key and objects as the value
 BLADES_AND_CHASSIS = HANDLE.query_dns(
-    "sys/chassis-1/blade-1",
-    "sys/chassis-2"
+    "sys/chassis-3/blade-1",
+    "sys/chassis-4"
     )
 
 print(BLADES_AND_CHASSIS)
 print(
-    BLADES_AND_CHASSIS['sys/chassis-2'].dn,
-    BLADES_AND_CHASSIS['sys/chassis-2'].model
+    BLADES_AND_CHASSIS['sys/chassis-4'].dn,
+    BLADES_AND_CHASSIS['sys/chassis-4'].model
     )
 print(
-    BLADES_AND_CHASSIS['sys/chassis-1/blade-1'].dn,
-    BLADES_AND_CHASSIS['sys/chassis-1/blade-1'].model
+    BLADES_AND_CHASSIS['sys/chassis-3/blade-1'].dn,
+    BLADES_AND_CHASSIS['sys/chassis-3/blade-1'].model
     )
 
 # Logout

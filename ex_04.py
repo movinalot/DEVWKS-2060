@@ -22,7 +22,7 @@ vars(HANDLE)
 dir(UcsHandle)
 
 # How can the capabilties of the HANDLE be used
-#help(UcsHandle)
+help(UcsHandle)
 
 # Meta data variations for containment hierarcy and object properties
 print("\nMetadata: include_prop=False, show_tree=True")
